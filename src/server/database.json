@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Ổi Phúc Lợi",
+      "category": "traicay",
+      "images": "https://product.hstatic.net/1000191320/product/oi-dai-loan-1_81f1522728113_large.png",
+      "brand": "longbien",
+      "price": 55000,
+      "description": "Ổi Phúc Lợi là giống ổi được trồng tại Phúc Lợi, Long Biên, Hà Nội."
+    },
+    {
+      "id": 2,
+      "title": "Na Bà Đen",
+      "category": "traicay",
+      "images": "https://product.hstatic.net/1000191320/product/na_70f80b2a173b46a19a1c6a09bae50d85_large.jpg",
+      "brand": "tayninh",
+      "price": 115000,
+      "description": "Được trồng xung quanh chân núi Bà Đen- Tây Ninh, khí hậu nắng nóng và khô cằn"
+    },
+    {
+      "id": 3,
+      "title": "Cá trắm đen (cắt khúc)",
+      "category": "thitca",
+      "images": "https://product.hstatic.net/1000191320/product/ca-tram-den_master.jpg",
+      "brand": "khac",
+      "price": 285000,
+      "description": "Được biết đến là một loài cá nước ngọt thuộc giống cá chép, cá trắm đen sống ở các ao hồ, sông lớn ở vùng đồng bằng Bắc và Trung bộ nước ta. Cá sống chủ yếu các vùng sông Hồng, sông Đà, sông Mã, sông Thái Bình...."
+    },
+    {
+      "id": 4,
+      "title": "Chôm chôm nhãn",
+      "category": "traicay",
+      "images": "https://product.hstatic.net/1000191320/product/chom-chom_master.jpg",
+      "brand": "khac",
+      "price": 115000,
+      "description": "Được trồng xung quanh chân núi Bà Đen- Tây Ninh, khí hậu nắng nóng và khô cằn"
+    },
+    {
+      "id": 5,
+      "title": "Rau cải ngọt",
+      "category": "rau",
+      "images": "https://product.hstatic.net/1000191320/product/cai-ngot_master.jpg",
+      "brand": "khac",
+      "price": 3200,
+      "description": "Cải ngọt là một trong những loại giống thuộc họ nhà cả dễ ăn và được nhiều người yêu thích. Cải ngọt ôn tính. Cải ngọt tốt cho sức khỏe nhờ công dụng trường vị, chữa các bệnh ho, táo bón, ngăn ngừa trị và ung thư ruột kết."
+    },
+    {
+      "id": 6,
+      "title": "Cà chua hữu cơ",
+      "category": "rau",
+      "images": "https://product.hstatic.net/1000191320/product/cai-ngot_master.jpg",
+      "brand": "khac",
+      "price": 37000,
+      "description": "Cà chua là một loại nguyên liệu thường thấy trong mỗi bữa ăn của gia đình Việt Nam. Chúng có tên gọi khoa học là Solanum lycopersicum, rất giàu dinh dưỡng vitamin A, C, K, B6 và là nguồn thực phẩm giàu Kali, Mangan, Magie, Chất xơ, Protein góp phần đặc biệt vào sức khỏe của con người."
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "longbien"
+    },
+    {
+      "id":2,
+      "name": "khac"
+    },
+    {
+      "id":3,
+      "name": "tayninh"
+    },
+    {
+      "id": 4,
+      "name":"hanoi"
+    },
+    {
+      "id": 5,
+      "name": "hochiminh"
+    }
+  ]
+}
+

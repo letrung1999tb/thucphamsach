@@ -1,0 +1,115 @@
+<section class="product spad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-5">
+        <div class="sidebar">
+          <div class="sidebar-sort">
+            <div class="top-siderbar text-center">
+              <h3 class="sb-title">Khoảng giá</h3>
+            </div>
+            <div class="panel">
+              <ul class="no-bullets filter-price clearfix">
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="0:max" value="((price:product>=0))">
+                    <span>Tất cả</span>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="0:100000" value="((price:product<100000))">
+                    <span>Nhỏ hơn 100,000₫</span>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="100000:200000"
+                      value="((price:product>=100000)&amp;&amp;(price:product<200000))">
+                    <span>Từ 100,000₫ - 200,000₫</span>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="200000:300000"
+                      value="((price:product>=200000)&amp;&amp;(price:product<300000))">
+                    <span>Từ 200,000₫ - 300,000₫</span>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="300000:400000"
+                      value="((price:product>=300000)&amp;&amp;(price:product<400000))">
+                    <span>Từ 300,000₫ - 400,000₫</span>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="400000:500000"
+                      value="((price:product>=400000)&amp;&amp;(price:product<500000))">
+                    <span>Từ 400,000₫ - 500,000₫</span>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="price-filter" data-price="500000:max" value="((price:product>=500000))">
+                    <span>Lớn hơn 500,000₫</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-7">
+        <div class="linehigh">
+          <div class="row">
+            <div class="col-sm-4">
+              <h2>Sản Phẩm Bán Chạy</h2>
+            </div>
+            <div class="col-sm-7 _sortby">
+              <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Sắp Xếp</label>
+                <div class="col-sm-7">
+                  <select class="form-control" name="SortBy" id="SortBy">
+                    <option value="manual">Tùy chọn</option>
+                    <option value="best-selling">Sản phẩm bán chạy</option>
+                    <option value="title-ascending">Theo bảng chữ cái từ A-Z</option>
+                    <option value="title-descending">Theo bảng chữ cái từ Z-A</option>
+                    <option value="price-ascending">Giá từ thấp tới cao</option>
+                    <option value="price-descending">Giá từ cao tới thấp</option>
+                    <option value="created-descending">Mới nhất</option>
+                    <option value="created-ascending">Cũ nhất</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr width="100%" size="5px" align="center" />
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let product of products$ | async">
+            <div class="product__item">
+              <div class="img-hover-zoom">
+                <img  [routerLink]="['/products/get', product.id]" src="{{ product.images }}" style="cursor: pointer;">
+              </div>
+              <div class="product__item__text">
+                <h6><a  [routerLink]="['/products/get', product.id]">{{ product.title}}</a></h6>
+                <h5 class="price-product">{{ product.price | currency:'VND':''}}đ</h5>
+              </div>
+              <button
+              (click)="onAddProductToCart()"
+            class="btn btn-success product__add-to-cart">Add to cart<i class="fa fa-shopping-cart"></i>
+            </button>
+            </div>
+          </div>
+        </div>
+        <div class="product__pagination">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

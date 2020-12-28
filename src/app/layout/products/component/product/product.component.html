@@ -1,0 +1,38 @@
+<div class="row justify-content-center">
+  <div class="col-8 mt-4" *ngIf="product$ | async as product">
+    <div class="row mt-4">
+      <div class="col-md-5 col-lg-7 _img-detail">
+        <img class="card-img-top" src="{{ product.images }}" alt="Card image cap">
+        <div class=" mt-4">
+          <div>
+            <p>Giá: {{ product.price | currency:'VND':''}}đ</p>
+          </div>
+          <div>
+            <p>
+              In Stock: {{product.quantity}}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 col-lg-5">
+        <div class="card-body">
+          <h5 class="card-title">{{product.title}}</h5>
+          <h5 class="card-title">| {{product.brand}}</h5>
+          <p class="card-text">{{product.description}}
+          </p>
+        </div>
+        <div class="text-center">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-success" [routerLink]="['/product/edit', product.id]">AddtoCart <i class="fas fa-shopping-basket"></i></button>
+            <button type="button" class="btn btn-info">Buy Now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4">
+      <button class="btn btn-primary" [routerLink]="['/collections/san-pham-trong-diem']" routerLinkActive="router-link-active"><i
+          class="fas fa-arrow-left"></i> Back To List</button>
+    </div>
+  </div>
+
+</div>

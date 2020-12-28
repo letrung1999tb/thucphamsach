@@ -1,0 +1,323 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+/* html,body {
+	height:100%;
+    padding-top:55px;
+} */
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.fixed-top #first {
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease;
+  -o-transition:padding 0.2s ease;
+  transition:padding 0.2s ease;
+}
+
+.affix #first {
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;
+  -o-transition:padding 0.2s linear;
+  transition:padding 0.2s linear;
+}
+.navbar-default {
+  background-color: white;
+  border-color: white;
+}
+#logo{
+max-width: 180px;
+margin-left: 50px;
+display: block;
+}
+#logo2{
+  max-width: 180px;
+  display: block;
+  }
+.navbar-custom{
+  background-color:#663320 ;
+  border-color: #663320;
+
+}
+.nav-item .nav-link{
+  color: white;
+  display: block;
+
+  text-transform: uppercase;
+  font-size: 15px;
+};
+.dropdown-item a{
+  color:black !important;
+}
+.collapse{
+  margin-top:10px;
+  margin-left: 40px;
+}
+.form-inline {
+  margin-left: 20px;
+    padding-top: 10px;
+}
+.form-inline .btn{
+  background-color: #663320;
+}
+.form-inline .fa-search{
+  color:white;
+}
+.form-inline .search{
+  border-color: #663320;
+  border-width: 1px;
+  width:100%;
+}
+.icon_header {
+  float: left;
+  margin-right: 15px;
+  display: inline-block;
+}
+.icon_header img {
+  width: 30px;
+}
+.pd-left0 {
+  padding-left: 0 !important;
+}
+.site-header .grid--table > .grid__item {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.site-header .header-right {
+  text-align: right;
+  margin: 15px 0px;
+  padding-left: 15px;
+}
+.grid__item{
+  padding-top:10px;
+  margin:10px;
+}
+.icon_header.icon_hotline a span {
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: #663320;
+}
+.dropdown .fa-user{
+  color: #663320;
+  font-size:xx-large;
+}
+.shopping-cart .fa-shopping-cart{
+  color: #663320;
+  font-size:x-large;
+  margin-top:5px;
+}
+.shopping-cart span {
+  width: 20px;
+  height: 20px;
+  background: #ff9933;
+  float: right;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: -5px;
+  padding: 0;
+  margin-top: 10px;
+}
+/* Home  */
+.container{
+  margin-top:20px;
+  padding-top:20px;
+}
+.carousel-inner{
+  height: 250px;
+}
+/* Danh Sách */
+.row ._itemlistview{
+  padding-top:25px;
+}
+
+/* navbar 2 */
+.nav .nav-item #navbarDropdown{
+  border:0px;
+  outline:0px;
+}
+.nav1{
+  padding-left: 140px;
+}
+.nav2{
+  padding-left: 50px;
+
+}
+.dropdown-item2{
+  width: 100%;
+  padding: .20rem 1.7rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.banner_small_slider img{
+  max-width: 100%;
+}
+
+.row h2.title {
+  font-size: 30px;
+    color: #00a803;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: "UTMAvoBold";
+}
+.men-title{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.nav2 .dropdown{
+  padding-left: 10px;
+}
+
+html,body {
+	height:100%;
+    padding-top:55px;
+}
+
+.navbar {
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease;
+  -o-transition:padding 0.2s ease;
+  transition:padding 0.2s ease;
+}
+
+.affix {
+
+  padding-bottom: 0.2em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;
+  -o-transition:padding 0.2s linear;
+  transition:padding 0.2s linear;
+}
+
+section {
+    min-height:calc(100% - 70px);
+}
+.navbar #logo {
+  transition: 0.4s;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("//theme.hstatic.net/1000191320/1000558385/14/home-parallax-bg.png?v=650");
+  padding-left: 40px;
+    margin-top: 30px;
+  /* Set a specific height */
+  min-height: 250px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:1200px;
+}
+.blog__details__hero__text{
+  padding-top:50px;
+}
+.filter__sort__right{
+  display: table-cell;
+  vertical-align: middle;
+  width: 235px;
+  margin-left: 340px;
+  padding-bottom: 10px;
+}
+.linehigh  h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top:10px;
+}
+.linehigh{
+  display: table;
+    width: 100%;
+}
+.product .container{
+  padding-top: 5px;
+  margin-top:5px;
+}
+.col-form-label{
+  text-align: right;
+}
+.linehigh ._sortby{
+  margin-left: 70px;
+}
+.sidebar-sort {
+  background: #f3f3f3;
+  margin-bottom: 30px;
+}
+.sidebar-sort .no-bullets {
+  list-style: none outside;
+  margin-left: 0;
+  padding: 6px 15px;
+}
+.sidebar-sort .no-bullets li {
+  margin-bottom: 15px;
+  background: #fff;
+  padding: 10px;
+}
+.sidebar-sort .top-siderbar h3.sb-title {
+  padding: 30px 0px 15px 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #00a803;
+}
+
+.img-hover-zoom {
+  height: 284px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 2.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+.product__add-to-cart{
+  position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+    left: 0;
+}
+h5.price-product{
+  color: #663320;
+}
+
